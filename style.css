@@ -1,0 +1,42 @@
+/* styles.css */
+
+:root {
+  --primary-color: #d62828;
+  --secondary-color: #003049;
+  --light-color: #fefae0;
+  --dark-color: #212529;
+  --font-size-base: 1rem;
+  --font-size-large: 1.25rem;
+  --border-radius: 0.5rem;
+  --shadow-light: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: var(--font-size-base);
+  color: var(--dark-color);
+  text-shadow: 1px 1px 2px grey;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.5;
+  z-index: -1;
+}
