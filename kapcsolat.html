@@ -33,3 +33,50 @@
       </nav>
     </div>
   </header>
+
+  <main class="container my-5">
+    <section class="content-box">
+      <h2>Lépj velünk kapcsolatba</h2>
+      <p>Ha kérdésed van a <strong>japán autók</strong> világával kapcsolatban, bátran vedd fel velünk a kapcsolatot az alábbi űrlap segítségével.</p>
+
+      <form action="#" method="POST" class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="nev" class="form-label">Név:</label>
+          <input type="text" class="form-control" id="nev" name="nev" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email cím:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="tema" class="form-label">Téma:</label>
+          <select id="tema" class="form-select" name="tema">
+            <option value="modellek">Modellek</option>
+            <option value="tortenet">Történelem</option>
+            <option value="egyeb">Egyéb</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="uzenet" class="form-label">Üzenet:</label>
+          <textarea id="uzenet" class="form-control" rows="5" name="uzenet" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Küldés</button>
+      </form>
+
+      <h3>További információk</h3>
+      <ul>
+        <li><a href="https://www.japan-guide.com/" target="_blank">Japán kulturális útmutató</a></li>
+        <li><a href="https://www.autoblog.com/japanese-cars/" target="_blank">Autoblog - Japán autók</a></li>
+        <li><a href="mailto:info@japaniautok.hu">Email küldése</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 Japán Autók Világa | Minden jog fenntartva.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+</body>
+</html>
