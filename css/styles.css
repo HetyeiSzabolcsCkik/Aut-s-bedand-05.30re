@@ -1,8 +1,7 @@
 /* styles.css */
 
 :root {
-  --primary-color: #d62828;
-  --secondary-color: #003049;
+  --primary-color: #ff00ff;
   --light-color: #fefae0;
   --dark-color: #212529;
   --font-size-base: 1rem;
@@ -75,6 +74,7 @@ footer {
 .navbar-nav .nav-link {
   margin-right: 1rem;
   text-transform: capitalize;
+  color:rgb(201, 28, 201)
 }
 
 .page-wrapper {
